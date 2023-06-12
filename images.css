@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+.google-image{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   top: 10rem;
+}
+.nav-bar{
+    text-align: left;
+}
+#search{
+    width: 35rem;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid grey;
+    padding-left: 2.8rem;
+}
+.search-bar{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 12rem;
+}
+.google-image h3{
+   position: relative;
+   color: blue;
+   top: 2rem;
+   right: 2rem;
+}
+#search-icon-img{
+   position: relative;
+   right: 36.9rem;
+}
+.mic-icon-image{
+    position: relative;
+    right: 3rem;
+}

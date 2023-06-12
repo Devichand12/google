@@ -1,0 +1,40 @@
+body{
+    background-color: #2C3333;
+}
+.nav-bar{
+    text-align: left;
+}
+.title p{
+    color: red;
+    font-size: 23px;
+    margin: 50px;
+}
+.form-table{
+    width: 100%;
+    color: white;
+}
+.form-table input{
+    width: 350%;
+    background-color: #2C3333;
+    border: solid 1px silver;
+    height: 28px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+#submit{
+    width: 150px;
+    position: relative;
+    left: 51.8%;
+    top: 20px;
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: bold;
+    color: black;
+}
+#submit:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}

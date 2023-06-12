@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar ul{
+    float: right;
+    display: flex;
+    margin: 10px;
+}
+.nav-bar a{
+    margin: 10px;
+}
+.google-image{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   position: relative;
+   top: 10rem;
+   width: 100%;
+}
+.search-bar{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: 12rem;
+    width: 100%;
+}
+.languages ul{
+    display: flex;
+}
+.languages a{
+    margin: 10px;
+}
+.languages{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   top: 18rem;
+}
+.country{
+    width: 100%;
+    position: relative;
+    top: 26rem;
+    height: 70px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: silver;
+}
+.terms ul{
+    display: flex;
+}
+.terms a{
+    margin: 20px;
+    color: black;
+}
+.terms{
+    width: 100%;
+    position: absolute;
+    top: 92%;
+    background-color: silver;
+    height: 60px;
+    border: black solid 1px;
+    padding: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10rem;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15rem;
+}
+.search-bar input{
+    width: 33rem;
+    height: 2rem;
+    border-radius: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+#submit1{
+    height: 2rem;
+    position: relative;
+    right: 2rem;
+    width: 7rem;
+    border-radius: 3px;
+    border: solid 1px silver;
+    cursor: pointer;
+}
+#submit2{
+    height: 2rem;
+    position: relative;
+    left: 1.5rem;
+    width:8rem;
+    border-radius: 3px;
+    border: solid 1px silver;
+    cursor: pointer;
+}
